@@ -15,6 +15,9 @@ A repository for generating character portraits using StyleGan3.
 
 Open a command prompt/bash shell in the current directory and run the following commands
 ```
+# clone submodules recursively
+git submodule update --init --recursive
+
 # create anaconda environment
 conda env create -f environment.yml
 
